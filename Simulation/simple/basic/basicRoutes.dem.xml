@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-04-15 11:45:24 by Eclipse SUMO duarouter Version 1.10.0
+<!-- generated on 2022-04-19 09:47:43 by Eclipse SUMO duarouter Version 1.10.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value="basic/basicGrid.net.xml"/>
-        <route-files value="fringeTrips.trips.xml"/>
+        <net-file value="basicGrid.net.xml"/>
+        <route-files value="../fringeTrips.trips.xml"/>
         <junction-taz value="true"/>
     </input>
 
     <output>
-        <output-file value="routetest.dem.xml"/>
-        <alternatives-output value="routetest.dem.alt.xml"/>
+        <output-file value="basicRoutes.dem.xml"/>
+        <alternatives-output value="basicRoutes.dem.alt.xml"/>
     </output>
 
 </configuration>
