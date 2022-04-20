@@ -1,0 +1,10 @@
+<data>
+    <interval id="arbitrary" begin="0.0" end="3600">
+        <edge id="4479201" entered="497"/>
+        <edge id="37777462" entered="496"/>
+        <edge id="3441738" entered="707"/>
+        <edge id="55290812" entered="162"/>    
+        <edge id="188924487" entered="266"/>    
+        <edge id="837573373" entered="1050"/> 
+     </interval>
+</data>
