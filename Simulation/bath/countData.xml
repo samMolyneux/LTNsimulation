@@ -1,10 +1,12 @@
 <data>
-    <interval id="arbitrary" begin="0.0" end="3600">
-        <edge id="4479201" entered="497"/>
+    <interval id="full" begin="0.0" end="3600">
+        <edge id="188924487#0" entered="266"/>
+        <edge id="-444272568#0" entered="499"/>
+        <edge id="837573373#4" entered="542"/>
+        <edge id="-55290812#1" entered="76"/>
+        <edge id="55290812#0" entered="86"/>
         <edge id="37777462" entered="496"/>
-        <edge id="3441738" entered="707"/>
-        <edge id="55290812" entered="162"/>    
-        <edge id="188924487" entered="266"/>    
-        <edge id="837573373" entered="1050"/> 
+        <edge id="4479201#0" entered="497"/>
+        <edge id="3441738#0" entered="707"/>
      </interval>
 </data>
