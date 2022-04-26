@@ -2,6 +2,8 @@ python ../../tools/randomTrips.py -n basicGrid.net.xml --fringe-factor 5 --junct
 
 duarouter -n basicGrid.net.xml --junction-taz --r simpleTrips.trips.xml -o basicRoutes.rou.xml
 
+#python ../../tools/randomTrips.py -n basicGrid.net.xml --fringe-factor 5 --junction-taz -r basicRoutes.rou.xml
+
 sumo -c basic_config_18_04_2022.sumocfg
 
 # <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">

@@ -7,7 +7,7 @@
 
     <input>
         <net-file value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\bath\bathv4.net.xml"/>
-        <route-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\bath\sampledRoutes.rou.xml"/>
+        <route-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\bath\sampledRoutesBasic.rou.xml"/>
         <additional-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\bath\analysisDataDef.xml" />
     </input>
 
