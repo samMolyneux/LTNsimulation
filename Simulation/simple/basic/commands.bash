@@ -31,3 +31,7 @@ sumo -c analysis_config.sumocfg
 #     </input>
 
 # </configuration>
+
+python ../../mytools/tripsFromRoutes.py  -i sampledRoutes.rou.xml -o ../ltn/ltnTrips.rou.xml
+
+duarouter -n ../ltn/ltnGrid.net.xml --r ../ltn/ltnTrips.rou.xml -o ../ltn/ltnRoutes.rou.xml
