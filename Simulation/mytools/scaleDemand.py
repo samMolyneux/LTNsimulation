@@ -1,3 +1,4 @@
+from operator import contains
 import sys
 import os
 
@@ -36,8 +37,9 @@ options = get_options()
 if(options.countFile):
     ratioSum = 0
     counts = 0
+    countEdges = []
     for countEdge in sumolib.xml.parse(options.countFile, ['edge']):
-
+        countEdges.append(countEdge)
         for edge in sumolib.xml.parse(options.edgeDataFile, ['edge']):
             if(countEdge.id == edge.id):
                 print(countEdge.id)
@@ -58,9 +60,14 @@ with open(options.out, "w") as outf:
     outf.write('<data>\n')
     outf.write('    <interval id="flowdata" begin="%s" end="%s">\n' % (options.begin, options.end))
     for edge in sumolib.xml.parse(options.edgeDataFile, ['edge']):
+        # for countEdge in countEdges:
+        #     if countEdge.id == edge.id:
+        #         outf.write('        <edge id="%s" entered="%s"/>\n' %
+        #                 (countEdge.id, countEdge.entered))
+        #     else:
         edge.entered = int(edge.entered) * scaleRatio
         outf.write('        <edge id="%s" entered="%s"/>\n' %
-                   (edge.id, edge.entered))
+                (edge.id, edge.entered))
         
     outf.write('    </interval>\n')
     outf.write('</data>\n')
