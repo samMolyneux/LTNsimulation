@@ -1,4 +1,13 @@
-python ../../tools/randomTrips.py -n basicGrid.net.xml --fringe-factor 5 --junction-taz -o simpleTrips.trips.xml
+while getopts f:a: flag
+do
+    case "${flag}" in
+        f) fringeFactor=${OPTARG};;
+        a) age=${OPTARG};;
+    esac
+done
+
+
+python ../../tools/randomTrips.py -n basicGrid.net.xml --fringe-factor "$fringeFactor" --junction-taz -o simpleTrips.trips.xml
 
 duarouter -n basicGrid.net.xml --junction-taz --r simpleTrips.trips.xml -o basicRoutes.rou.xml
 
@@ -32,6 +41,6 @@ sumo -c analysis_config.sumocfg
 
 # </configuration>
 
-python ../../mytools/tripsFromRoutes.py  -i sampledRoutes.rou.xml -o ../ltn/ltnTrips.rou.xml
+python ../../mytools/tripsFromRoutes.py  -i sampledRoutes.rou.xml -r basicRoutes.rou.xml -t simpleTrips.trips.xml -o ../ltn/ltnTrips.rou.xml
 
-duarouter -n ../ltn/ltnGrid.net.xml --r ../ltn/ltnTrips.rou.xml -o ../ltn/ltnRoutes.rou.xml
+duarouter -n ../ltn/ltnGrid.net.xml --r ../ltn/ltnTrips.rou.xml -o ../ltn/ltnRoutes.rou.xml --junction-taz
