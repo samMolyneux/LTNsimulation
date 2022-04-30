@@ -6,7 +6,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\simple\ltn\ltnGrid2.net.xml"/>
+        <net-file value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\simple\ltn\ltnGrid.net.xml"/>
         <route-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\simple\ltn\ltnRoutes.rou.xml"/>
         <additional-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\simple\ltn\data\edgeDataDef.xml" />
     </input>
