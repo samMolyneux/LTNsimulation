@@ -42,4 +42,4 @@ sumo -c analysis_config.sumocfg
 
 python ../../mytools/tripsFromRoutes.py  -i sampledRoutes.rou.xml -r basicRoutes.rou.xml -t simpleTrips.trips.xml -o ../ltn/ltnTrips.rou.xml
 
-duarouter -n ../ltn/ltnGrid2.net.xml --r ../ltn/ltnTrips.rou.xml -o ../ltn/ltnRoutes.rou.xml --junction-taz
+duarouter -n ../ltn/ltnGrid.net.xml --r ../ltn/ltnTrips.rou.xml -o ../ltn/ltnRoutes.rou.xml --junction-taz

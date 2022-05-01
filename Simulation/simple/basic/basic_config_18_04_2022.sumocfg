@@ -7,7 +7,7 @@
 
     <input>
         <net-file value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\simple\basic\basicGrid.net.xml"/>
-        <route-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\simple\basic\demand_testing\f10.rou.xml"/>
+        <route-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\simple\basic\basicRoutes.rou.xml"/>
         <additional-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\simple\basic\edgeDataDef.xml" />
     </input>
 
