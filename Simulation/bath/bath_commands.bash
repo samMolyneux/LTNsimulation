@@ -27,7 +27,7 @@ python ../mytools/scaleDemand.py --edgedata-file data/edgeData.xml --count-file 
 
 python ../tools/routeSampler.py -r routes/basicRoutes.rou.xml -d expandedCounts.xml -o routes/sampledRoutes.rou.xml
 
-sumo -c an_basic_bath_config.sumocfg
+# sumo -c an_basic_bath_config.sumocfg
 
 # <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 

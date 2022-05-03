@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 2022-05-01 11:43:40.132013 by tripsFromRoutes.py v1_10_0+0000-83496a5972
+<!-- generated on 2022-05-03 10:39:36.415985 by tripsFromRoutes.py v1_10_0+0000-83496a5972
   options: -i sampledRoutes.rou.xml -r basicRoutes.rou.xml -t simpleTrips.trips.xml -o ../ltn/ltnTrips.rou.xml
 -->
 <routes>
