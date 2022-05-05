@@ -15,7 +15,7 @@ def get_options(args=None):
         description="Scale edges to match counts")
     parser.add_argument("-i", "--edgedata-file", dest="edgeDataFile",
                         help="Input edgeData file ")
-    parser.add_argument("-r", "--count-file", dest="countFile",
+    parser.add_argument("-f", "--count-file", dest="countFile",
                         help="Input count file ")
     parser.add_argument("-o", "--output-file", dest="out", default="out.xml",
                         help="Output edgeData file")
@@ -61,12 +61,13 @@ with open(options.out, "w") as outf:
     outf.write('    <interval id="flowdata" begin="%s" end="%s">\n' % (options.begin, options.end))
     for edge in sumolib.xml.parse(options.edgeDataFile, ['edge']):
         isCountEdge = False
-        for countEdge in countEdges:
-            if countEdge.id == edge.id:
-                outf.write('        <edge id="%s" entered="%s"/>\n' %
-                        (countEdge.id, countEdge.entered))
-                isCountEdge = True
-                break
+        if(options.countFile):
+            for countEdge in countEdges:
+                if countEdge.id == edge.id:
+                    outf.write('        <edge id="%s" entered="%s"/>\n' %
+                            (countEdge.id, countEdge.entered))
+                    isCountEdge = True
+                    break
         if not isCountEdge:
             edge.entered = int(edge.entered) * scaleRatio
             outf.write('        <edge id="%s" entered="%s"/>\n' %

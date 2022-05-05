@@ -9,7 +9,9 @@ done
 
 python ../tools/randomTrips.py -n bath.net.xml --fringe-factor "$fringeFactor" --junction-taz -o basicTrips.trips.xml
 
+
 duarouter -n bath.net.xml --junction-taz --r basicTrips.trips.xml -o routes/basicRoutes.rou.xml
+#python ../../tools/assign/duaiterate.py -n ../bath.net.xml -t ../basicTrips.trips.xml -l 15 duarouter--junction-taz
 
 sumo -c basic_bath_config.sumocfg
 
@@ -27,7 +29,7 @@ python ../mytools/scaleDemand.py --edgedata-file data/edgeData.xml --count-file 
 
 python ../tools/routeSampler.py -r routes/basicRoutes.rou.xml -d expandedCounts.xml -o routes/sampledRoutes.rou.xml
 
-# sumo -c an_basic_bath_config.sumocfg
+sumo -c an_basic_bath_config.sumocfg
 
 # <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 

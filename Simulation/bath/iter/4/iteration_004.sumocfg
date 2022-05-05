@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-04-29 15:26:50 by Eclipse SUMO sumo Version 1.10.0
+<!-- generated on 2022-05-04 12:43:13 by Eclipse SUMO sumo Version 1.10.0
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
         <net-file value="../../bath.net.xml"/>
-        <route-files value="sampledRoutes_004.rou.xml"/>
+        <route-files value="basicTrips_004.rou.xml"/>
         <additional-files value="dua_dump_004.add.xml"/>
     </input>
 

@@ -1,141 +1,211 @@
 > Executing step 0
->> Running router on ../routes/sampledRoutes.rou.xml
->>> Begin time: 2022-04-29 15:16:48.082011
->>> End time: 2022-04-29 15:16:49.126110
->>> Duration: 0:00:01.044099
+>> Running router on ../basicTrips.trips.xml
+>>> Begin time: 2022-05-04 12:42:37.571547
+>>> End time: 2022-05-04 12:42:38.319412
+>>> Duration: 0:00:00.747865
 <<
 >> Running simulation
->>> Begin time: 2022-04-29 15:16:49.127111
->>> End time: 2022-04-29 15:19:25.629855
->>> Duration: 0:02:36.502744
+>>> Begin time: 2022-05-04 12:42:38.320413
+>>> End time: 2022-05-04 12:42:46.181033
+>>> Duration: 0:00:07.860620
 <<
-< Step 0 ended (duration: 0:02:37.549842)
+< Step 0 ended (duration: 0:00:08.609486)
 ------------------
 
 > Executing step 1
->> Running router on 0\sampledRoutes_000.rou.alt.xml
->>> Begin time: 2022-04-29 15:19:25.634856
->>> End time: 2022-04-29 15:19:27.061447
->>> Duration: 0:00:01.426591
+>> Running router on 0\basicTrips_000.rou.alt.xml
+>>> Begin time: 2022-05-04 12:42:46.183140
+>>> End time: 2022-05-04 12:42:47.113318
+>>> Duration: 0:00:00.930178
 <<
 >> Running simulation
->>> Begin time: 2022-04-29 15:19:27.062448
->>> End time: 2022-04-29 15:22:14.648150
->>> Duration: 0:02:47.585702
+>>> Begin time: 2022-05-04 12:42:47.113318
+>>> End time: 2022-05-04 12:42:55.143666
+>>> Duration: 0:00:08.030348
 <<
-< Step 1 ended (duration: 0:02:49.015297)
+< Step 1 ended (duration: 0:00:08.961526)
 ------------------
 
 > Executing step 2
->> Running router on 1\sampledRoutes_001.rou.alt.xml
->>> Begin time: 2022-04-29 15:22:14.651152
->>> End time: 2022-04-29 15:22:16.356485
->>> Duration: 0:00:01.705333
+>> Running router on 1\basicTrips_001.rou.alt.xml
+>>> Begin time: 2022-05-04 12:42:55.148666
+>>> End time: 2022-05-04 12:42:56.165358
+>>> Duration: 0:00:01.016692
 <<
 >> Running simulation
->>> Begin time: 2022-04-29 15:22:16.357486
->>> End time: 2022-04-29 15:25:01.273604
->>> Duration: 0:02:44.916118
+>>> Begin time: 2022-05-04 12:42:56.166358
+>>> End time: 2022-05-04 12:43:04.107376
+>>> Duration: 0:00:07.941018
 <<
-< Step 2 ended (duration: 0:02:46.623454)
+< Step 2 ended (duration: 0:00:08.959710)
 ------------------
 
 > Executing step 3
->> Running router on 2\sampledRoutes_002.rou.alt.xml
->>> Begin time: 2022-04-29 15:25:01.276604
->>> End time: 2022-04-29 15:25:02.982470
->>> Duration: 0:00:01.705866
+>> Running router on 2\basicTrips_002.rou.alt.xml
+>>> Begin time: 2022-05-04 12:43:04.112377
+>>> End time: 2022-05-04 12:43:05.065826
+>>> Duration: 0:00:00.953449
 <<
 >> Running simulation
->>> Begin time: 2022-04-29 15:25:02.983471
->>> End time: 2022-04-29 15:26:48.513304
->>> Duration: 0:01:45.529833
+>>> Begin time: 2022-05-04 12:43:05.066825
+>>> End time: 2022-05-04 12:43:12.835223
+>>> Duration: 0:00:07.768398
 <<
-< Step 3 ended (duration: 0:01:47.237698)
+< Step 3 ended (duration: 0:00:08.724848)
 ------------------
 
 > Executing step 4
->> Running router on 3\sampledRoutes_003.rou.alt.xml
->>> Begin time: 2022-04-29 15:26:48.518307
->>> End time: 2022-04-29 15:26:50.152072
->>> Duration: 0:00:01.633765
+>> Running router on 3\basicTrips_003.rou.alt.xml
+>>> Begin time: 2022-05-04 12:43:12.840225
+>>> End time: 2022-05-04 12:43:13.870131
+>>> Duration: 0:00:01.029906
 <<
 >> Running simulation
->>> Begin time: 2022-04-29 15:26:50.153074
->>> End time: 2022-04-29 15:30:39.517331
->>> Duration: 0:03:49.364257
+>>> Begin time: 2022-05-04 12:43:13.871134
+>>> End time: 2022-05-04 12:43:21.977363
+>>> Duration: 0:00:08.106229
 <<
-< Step 4 ended (duration: 0:03:51.001027)
+< Step 4 ended (duration: 0:00:09.139140)
 ------------------
 
 > Executing step 5
->> Running router on 4\sampledRoutes_004.rou.alt.xml
->>> Begin time: 2022-04-29 15:30:39.522332
->>> End time: 2022-04-29 15:30:41.368022
->>> Duration: 0:00:01.845690
+>> Running router on 4\basicTrips_004.rou.alt.xml
+>>> Begin time: 2022-05-04 12:43:21.982365
+>>> End time: 2022-05-04 12:43:22.911111
+>>> Duration: 0:00:00.928746
 <<
 >> Running simulation
->>> Begin time: 2022-04-29 15:30:41.369023
->>> End time: 2022-04-29 15:32:55.980600
->>> Duration: 0:02:14.611577
+>>> Begin time: 2022-05-04 12:43:22.911111
+>>> End time: 2022-05-04 12:43:30.613240
+>>> Duration: 0:00:07.702129
 <<
-< Step 5 ended (duration: 0:02:16.460268)
+< Step 5 ended (duration: 0:00:08.631876)
 ------------------
 
 > Executing step 6
->> Running router on 5\sampledRoutes_005.rou.alt.xml
->>> Begin time: 2022-04-29 15:32:55.985603
->>> End time: 2022-04-29 15:32:57.848763
->>> Duration: 0:00:01.863160
+>> Running router on 5\basicTrips_005.rou.alt.xml
+>>> Begin time: 2022-05-04 12:43:30.617240
+>>> End time: 2022-05-04 12:43:31.670805
+>>> Duration: 0:00:01.053565
 <<
 >> Running simulation
->>> Begin time: 2022-04-29 15:32:57.848763
->>> End time: 2022-04-29 15:34:22.117783
->>> Duration: 0:01:24.269020
+>>> Begin time: 2022-05-04 12:43:31.671954
+>>> End time: 2022-05-04 12:43:39.766294
+>>> Duration: 0:00:08.094340
 <<
-< Step 6 ended (duration: 0:01:26.133183)
+< Step 6 ended (duration: 0:00:09.149054)
 ------------------
 
 > Executing step 7
->> Running router on 6\sampledRoutes_006.rou.alt.xml
->>> Begin time: 2022-04-29 15:34:22.122786
->>> End time: 2022-04-29 15:34:23.970673
->>> Duration: 0:00:01.847887
+>> Running router on 6\basicTrips_006.rou.alt.xml
+>>> Begin time: 2022-05-04 12:43:39.770295
+>>> End time: 2022-05-04 12:43:40.732521
+>>> Duration: 0:00:00.962226
 <<
 >> Running simulation
->>> Begin time: 2022-04-29 15:34:23.971673
->>> End time: 2022-04-29 15:37:41.907607
->>> Duration: 0:03:17.935934
+>>> Begin time: 2022-05-04 12:43:40.733380
+>>> End time: 2022-05-04 12:43:48.608397
+>>> Duration: 0:00:07.875017
 <<
-< Step 7 ended (duration: 0:03:19.785853)
+< Step 7 ended (duration: 0:00:08.838102)
 ------------------
 
 > Executing step 8
->> Running router on 7\sampledRoutes_007.rou.alt.xml
->>> Begin time: 2022-04-29 15:37:41.912639
->>> End time: 2022-04-29 15:37:43.753114
->>> Duration: 0:00:01.840475
+>> Running router on 7\basicTrips_007.rou.alt.xml
+>>> Begin time: 2022-05-04 12:43:48.612397
+>>> End time: 2022-05-04 12:43:49.602707
+>>> Duration: 0:00:00.990310
 <<
 >> Running simulation
->>> Begin time: 2022-04-29 15:37:43.753114
->>> End time: 2022-04-29 15:40:58.314778
->>> Duration: 0:03:14.561664
+>>> Begin time: 2022-05-04 12:43:49.603703
+>>> End time: 2022-05-04 12:43:57.558627
+>>> Duration: 0:00:07.954924
 <<
-< Step 8 ended (duration: 0:03:16.403137)
+< Step 8 ended (duration: 0:00:08.948231)
 ------------------
 
 > Executing step 9
->> Running router on 8\sampledRoutes_008.rou.alt.xml
->>> Begin time: 2022-04-29 15:40:58.330407
->>> End time: 2022-04-29 15:41:00.272259
->>> Duration: 0:00:01.941852
+>> Running router on 8\basicTrips_008.rou.alt.xml
+>>> Begin time: 2022-05-04 12:43:57.563628
+>>> End time: 2022-05-04 12:43:58.509884
+>>> Duration: 0:00:00.946256
 <<
 >> Running simulation
->>> Begin time: 2022-04-29 15:41:00.272259
->>> End time: 2022-04-29 15:43:13.991214
->>> Duration: 0:02:13.718955
+>>> Begin time: 2022-05-04 12:43:58.510883
+>>> End time: 2022-05-04 12:44:06.447216
+>>> Duration: 0:00:07.936333
 <<
-< Step 9 ended (duration: 0:02:15.660807)
+< Step 9 ended (duration: 0:00:08.884588)
 ------------------
 
-dua-iterate ended (duration: 0:26:25.920841)
+> Executing step 10
+>> Running router on 9\basicTrips_009.rou.alt.xml
+>>> Begin time: 2022-05-04 12:44:06.453216
+>>> End time: 2022-05-04 12:44:07.538532
+>>> Duration: 0:00:01.085316
+<<
+>> Running simulation
+>>> Begin time: 2022-05-04 12:44:07.539532
+>>> End time: 2022-05-04 12:44:17.705687
+>>> Duration: 0:00:10.166155
+<<
+< Step 10 ended (duration: 0:00:11.253470)
+------------------
+
+> Executing step 11
+>> Running router on 10\basicTrips_010.rou.alt.xml
+>>> Begin time: 2022-05-04 12:44:17.710685
+>>> End time: 2022-05-04 12:44:18.716376
+>>> Duration: 0:00:01.005691
+<<
+>> Running simulation
+>>> Begin time: 2022-05-04 12:44:18.717380
+>>> End time: 2022-05-04 12:44:26.839481
+>>> Duration: 0:00:08.122101
+<<
+< Step 11 ended (duration: 0:00:09.130798)
+------------------
+
+> Executing step 12
+>> Running router on 11\basicTrips_011.rou.alt.xml
+>>> Begin time: 2022-05-04 12:44:26.842483
+>>> End time: 2022-05-04 12:44:27.928321
+>>> Duration: 0:00:01.085838
+<<
+>> Running simulation
+>>> Begin time: 2022-05-04 12:44:27.929321
+>>> End time: 2022-05-04 12:44:35.997924
+>>> Duration: 0:00:08.068603
+<<
+< Step 12 ended (duration: 0:00:09.156443)
+------------------
+
+> Executing step 13
+>> Running router on 12\basicTrips_012.rou.alt.xml
+>>> Begin time: 2022-05-04 12:44:36.002926
+>>> End time: 2022-05-04 12:44:37.115412
+>>> Duration: 0:00:01.112486
+<<
+>> Running simulation
+>>> Begin time: 2022-05-04 12:44:37.116410
+>>> End time: 2022-05-04 12:44:50.202063
+>>> Duration: 0:00:13.085653
+<<
+< Step 13 ended (duration: 0:00:14.201141)
+------------------
+
+> Executing step 14
+>> Running router on 13\basicTrips_013.rou.alt.xml
+>>> Begin time: 2022-05-04 12:44:50.207064
+>>> End time: 2022-05-04 12:44:52.103978
+>>> Duration: 0:00:01.896914
+<<
+>> Running simulation
+>>> Begin time: 2022-05-04 12:44:52.108982
+>>> End time: 2022-05-04 12:45:09.110926
+>>> Duration: 0:00:17.001944
+<<
+< Step 14 ended (duration: 0:00:18.904860)
+------------------
+
+dua-iterate ended (duration: 0:02:31.544378)
