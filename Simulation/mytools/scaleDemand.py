@@ -51,7 +51,7 @@ if(options.countFile):
 
     scaleRatio = ratioSum/counts
 else:
-    scaleRatio = int(options.scale)
+    scaleRatio = float(options.scale)
 
 print("Scale ratio: ", scaleRatio)
 

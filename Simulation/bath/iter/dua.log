@@ -5,19 +5,19 @@ Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '0\\iteration_000.sumocfg']
 Loading configuration ... done.
-Loading net-file from '0\../../bath.net.xml' ... done (120ms).
+Loading net-file from '0\../../bath.net.xml' ... done (219ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '0\dua_dump_000.add.xml' ... done (7ms).
+Loading additional-files from '0\dua_dump_000.add.xml' ... done (12ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Simulation ended at time: 3970.00
+Simulation ended at time: 3904.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.44s
- Real time factor: 533.387
- UPS: 85055.219669
+ Duration: 13.85s
+ Real time factor: 281.918
+ UPS: 44088.749278
 Vehicles: 
  Inserted: 3600
  Running: 0
@@ -26,59 +26,52 @@ Vehicles:
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '1/iteration_001_basicTrips_000.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 30.74 in edge '-779925235'.
+Warning: No interval matches passed time 19.70 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '1\\iteration_001.sumocfg']
 Loading configuration ... done.
-Loading net-file from '1\../../bath.net.xml' ... done (104ms).
+Loading net-file from '1\../../bath.net.xml' ... done (193ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '1\dua_dump_001.add.xml' ... done (7ms).
+Loading additional-files from '1\dua_dump_001.add.xml' ... done (22ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Warning: Teleporting vehicle '673'; waited too long (wrong lane), lane='8769305_1', time=1246.00.
-Warning: Teleporting vehicle '939'; waited too long (wrong lane), lane='8769305_0', time=1246.00.
-Warning: Vehicle '673' ends teleporting on edge '32751327', time 1246.00.
-Warning: Vehicle '939' ends teleporting on edge '-4231711', time 1246.00.
-Warning: Teleporting vehicle '833'; waited too long (yield), lane='39333941#4_0', time=1251.00.
-Warning: Vehicle '833' ends teleporting on edge '8769305', time 1252.00.
-Simulation ended at time: 3969.00
+Simulation ended at time: 3903.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.62s
- Real time factor: 520.593
- UPS: 84079.616999
+ Duration: 15.72s
+ Real time factor: 248.361
+ UPS: 38336.048361
 Vehicles: 
  Inserted: 3600
  Running: 0
  Waiting: 0
-Teleports: 3 (Yield: 1, Wrong Lane: 2)
 
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '2/iteration_002_basicTrips_001.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 28.89 in edge '-779925235'.
+Warning: No interval matches passed time 19.74 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '2\\iteration_002.sumocfg']
 Loading configuration ... done.
-Loading net-file from '2\../../bath.net.xml' ... done (104ms).
+Loading net-file from '2\../../bath.net.xml' ... done (193ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '2\dua_dump_002.add.xml' ... done (8ms).
+Loading additional-files from '2\dua_dump_002.add.xml' ... done (15ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Simulation ended at time: 3913.00
+Simulation ended at time: 3892.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.55s
- Real time factor: 518.21
- UPS: 82158.919348
+ Duration: 16.32s
+ Real time factor: 238.437
+ UPS: 36904.184280
 Vehicles: 
  Inserted: 3600
  Running: 0
@@ -87,25 +80,25 @@ Vehicles:
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '3/iteration_003_basicTrips_002.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 28.55 in edge '-779925235'.
+Warning: No interval matches passed time 19.97 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '3\\iteration_003.sumocfg']
 Loading configuration ... done.
-Loading net-file from '3\../../bath.net.xml' ... done (101ms).
+Loading net-file from '3\../../bath.net.xml' ... done (205ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '3\dua_dump_003.add.xml' ... done (9ms).
+Loading additional-files from '3\dua_dump_003.add.xml' ... done (12ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Simulation ended at time: 3935.00
+Simulation ended at time: 3910.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.38s
- Real time factor: 533.487
- UPS: 83851.138829
+ Duration: 16.40s
+ Real time factor: 238.473
+ UPS: 36630.946572
 Vehicles: 
  Inserted: 3600
  Running: 0
@@ -114,55 +107,57 @@ Vehicles:
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '4/iteration_004_basicTrips_003.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 29.62 in edge '-779925235'.
+Warning: No interval matches passed time 19.87 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '4\\iteration_004.sumocfg']
 Loading configuration ... done.
-Loading net-file from '4\../../bath.net.xml' ... done (106ms).
+Loading net-file from '4\../../bath.net.xml' ... done (247ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '4\dua_dump_004.add.xml' ... done (8ms).
+Loading additional-files from '4\dua_dump_004.add.xml' ... done (14ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Warning: Teleporting vehicle '2236'; waited too long (wrong lane), lane='8769305_0', time=2678.00.
-Warning: Vehicle '2236' ends teleporting on edge '-4231711', time 2678.00.
-Simulation ended at time: 3897.00
+Warning: Teleporting vehicle '2214'; waited too long (wrong lane), lane='8769305_1', time=2728.00.
+Warning: Teleporting vehicle '2191'; waited too long (wrong lane), lane='8769305_0', time=2728.00.
+Warning: Vehicle '2191' ends teleporting on edge '-4231711', time 2728.00.
+Warning: Vehicle '2214' ends teleporting on edge '32751327', time 2728.00.
+Simulation ended at time: 3900.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.70s
- Real time factor: 506.038
- UPS: 85359.823400
+ Duration: 15.52s
+ Real time factor: 251.289
+ UPS: 39600.902062
 Vehicles: 
  Inserted: 3600
  Running: 0
  Waiting: 0
-Teleports: 1 (Wrong Lane: 1)
+Teleports: 2 (Wrong Lane: 2)
 
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '5/iteration_005_basicTrips_004.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 30.74 in edge '-779925235'.
+Warning: No interval matches passed time 19.87 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '5\\iteration_005.sumocfg']
 Loading configuration ... done.
-Loading net-file from '5\../../bath.net.xml' ... done (104ms).
+Loading net-file from '5\../../bath.net.xml' ... done (212ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '5\dua_dump_005.add.xml' ... done (8ms).
+Loading additional-files from '5\dua_dump_005.add.xml' ... done (12ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Simulation ended at time: 3938.00
+Simulation ended at time: 3885.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.31s
- Real time factor: 539.083
- UPS: 84842.573580
+ Duration: 13.90s
+ Real time factor: 279.557
+ UPS: 43303.878535
 Vehicles: 
  Inserted: 3600
  Running: 0
@@ -171,127 +166,110 @@ Vehicles:
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '6/iteration_006_basicTrips_005.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 28.95 in edge '-779925235'.
+Warning: No interval matches passed time 19.87 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '6\\iteration_006.sumocfg']
 Loading configuration ... done.
-Loading net-file from '6\../../bath.net.xml' ... done (106ms).
+Loading net-file from '6\../../bath.net.xml' ... done (222ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '6\dua_dump_006.add.xml' ... done (9ms).
+Loading additional-files from '6\dua_dump_006.add.xml' ... done (12ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Warning: Teleporting vehicle '2559'; waited too long (yield), lane='39333941#4_0', time=2895.00.
-Warning: Teleporting vehicle '2374'; waited too long (wrong lane), lane='8769305_1', time=2897.00.
-Warning: Teleporting vehicle '2449'; waited too long (wrong lane), lane='8769305_0', time=2897.00.
-Warning: Vehicle '2374' ends teleporting on edge '32751327', time 2897.00.
-Warning: Vehicle '2449' ends teleporting on edge '-4231711', time 2897.00.
-Warning: Vehicle '2559' ends teleporting on edge '8769305', time 2897.00.
-Warning: Teleporting vehicle '3256'; waited too long (wrong lane), lane='8769305_1', time=3699.00.
-Warning: Vehicle '3256' ends teleporting on edge '32751327', time 3699.00.
-Warning: Teleporting vehicle '3306'; waited too long (yield), lane='39333941#4_0', time=3749.00.
-Warning: Vehicle '3306' ends teleporting on edge '8769305', time 3749.00.
-Simulation ended at time: 4012.00
+Simulation ended at time: 3927.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.69s
- Real time factor: 521.649
- UPS: 85312.183071
+ Duration: 14.68s
+ Real time factor: 267.452
+ UPS: 40900.429068
 Vehicles: 
  Inserted: 3600
  Running: 0
  Waiting: 0
-Teleports: 5 (Yield: 2, Wrong Lane: 3)
 
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '7/iteration_007_basicTrips_006.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 29.12 in edge '-779925235'.
+Warning: No interval matches passed time 19.87 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '7\\iteration_007.sumocfg']
 Loading configuration ... done.
-Loading net-file from '7\../../bath.net.xml' ... done (101ms).
+Loading net-file from '7\../../bath.net.xml' ... done (240ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '7\dua_dump_007.add.xml' ... done (8ms).
+Loading additional-files from '7\dua_dump_007.add.xml' ... done (15ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Warning: Teleporting vehicle '2988'; waited too long (wrong lane), lane='8769305_0', time=3361.00.
-Warning: Teleporting vehicle '2922'; waited too long (wrong lane), lane='8769305_1', time=3361.00.
-Warning: Vehicle '2922' ends teleporting on edge '32751327', time 3361.00.
-Warning: Vehicle '2988' ends teleporting on edge '-4231711', time 3361.00.
-Simulation ended at time: 3937.00
+Warning: Teleporting vehicle '2191'; waited too long (wrong lane), lane='8769305_0', time=2688.00.
+Warning: Vehicle '2191' ends teleporting on edge '-4231711', time 2688.00.
+Warning: Vehicle '2875' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=3293.00.
+Simulation ended at time: 3881.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.49s
- Real time factor: 525.775
- UPS: 84608.840812
+ Duration: 14.03s
+ Real time factor: 276.543
+ UPS: 43358.344022
 Vehicles: 
  Inserted: 3600
  Running: 0
  Waiting: 0
-Teleports: 2 (Wrong Lane: 2)
+Teleports: 1 (Wrong Lane: 1)
 
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '8/iteration_008_basicTrips_007.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 29.12 in edge '-779925235'.
+Warning: No interval matches passed time 19.82 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '8\\iteration_008.sumocfg']
 Loading configuration ... done.
-Loading net-file from '8\../../bath.net.xml' ... done (104ms).
+Loading net-file from '8\../../bath.net.xml' ... done (266ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '8\dua_dump_008.add.xml' ... done (8ms).
+Loading additional-files from '8\dua_dump_008.add.xml' ... done (15ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Warning: Teleporting vehicle '2217'; waited too long (wrong lane), lane='8769305_1', time=2740.00.
-Warning: Vehicle '2217' ends teleporting on edge '32751327', time 2740.00.
-Warning: Teleporting vehicle '2241'; waited too long (yield), lane='39333941#4_0', time=2753.00.
-Warning: Vehicle '2241' ends teleporting on edge '32751327', time 2756.00.
-Simulation ended at time: 3956.00
+Simulation ended at time: 3888.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.57s
- Real time factor: 522.935
- UPS: 84786.649042
+ Duration: 14.48s
+ Real time factor: 268.434
+ UPS: 41361.640431
 Vehicles: 
  Inserted: 3600
  Running: 0
  Waiting: 0
-Teleports: 2 (Yield: 1, Wrong Lane: 1)
 
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '9/iteration_009_basicTrips_008.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 29.12 in edge '-779925235'.
+Warning: No interval matches passed time 19.75 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '9\\iteration_009.sumocfg']
 Loading configuration ... done.
-Loading net-file from '9\../../bath.net.xml' ... done (104ms).
+Loading net-file from '9\../../bath.net.xml' ... done (175ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '9\dua_dump_009.add.xml' ... done (9ms).
+Loading additional-files from '9\dua_dump_009.add.xml' ... done (11ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Simulation ended at time: 3956.00
+Simulation ended at time: 3897.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.54s
- Real time factor: 524.668
- UPS: 82170.689655
+ Duration: 14.26s
+ Real time factor: 273.32
+ UPS: 42032.753542
 Vehicles: 
  Inserted: 3600
  Running: 0
@@ -300,137 +278,52 @@ Vehicles:
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '10/iteration_010_basicTrips_009.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 29.12 in edge '-779925235'.
+Warning: No interval matches passed time 19.75 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '10\\iteration_010.sumocfg']
 Loading configuration ... done.
-Loading net-file from '10\../../bath.net.xml' ... done (110ms).
+Loading net-file from '10\../../bath.net.xml' ... done (224ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '10\dua_dump_010.add.xml' ... done (8ms).
+Loading additional-files from '10\dua_dump_010.add.xml' ... done (14ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Warning: Teleporting vehicle '1770'; waited too long (wrong lane), lane='8769305_0', time=2117.00.
-Warning: Vehicle '1770' ends teleporting on edge '-4231711', time 2117.00.
-Warning: Teleporting vehicle '1648'; waited too long (yield), lane='39333941#4_0', time=2128.00.
-Warning: Vehicle '1648' ends teleporting on edge '8769305', time 2128.00.
-Warning: Teleporting vehicle '1838'; waited too long (wrong lane), lane='gneE11_1', time=2214.00.
-Warning: Vehicle '1838' ends teleporting on edge '3292445#0.4', time 2214.00.
-Warning: Teleporting vehicle '1910'; waited too long (yield), lane='gneE11_1', time=2215.00.
-Warning: Vehicle '1910' ends teleporting on edge 'gneE12', time 2215.00.
-Warning: Teleporting vehicle '1730'; waited too long (yield), lane='gneE12_1', time=2323.00.
-Warning: Vehicle '1730' ends teleporting on edge 'gneE13', time 2323.00.
-Warning: Teleporting vehicle '2087'; waited too long (yield), lane='gneE12_1', time=2649.00.
-Warning: Vehicle '2087' ends teleporting on edge 'gneE13', time 2649.00.
-Warning: Teleporting vehicle '2123'; waited too long (wrong lane), lane='8769305_1', time=2667.00.
-Warning: Vehicle '2123' ends teleporting on edge '32751327', time 2667.00.
-Warning: Teleporting vehicle '1859'; waited too long (yield), lane='gneE12_1', time=2961.00.
-Warning: Vehicle '1859' ends teleporting on edge 'gneE13', time 2961.00.
-Warning: Teleporting vehicle '2472'; waited too long (yield), lane='gneE11_1', time=2965.00.
-Warning: Vehicle '2472' ends teleporting on edge 'gneE12', time 2965.00.
-Warning: Teleporting vehicle '2214'; waited too long (jam), lane='192668650#3_0', time=2970.00.
-Warning: Teleporting vehicle '2642'; waited too long (yield), lane='2955277#2_0', time=2987.00.
-Warning: Vehicle '2214' ends teleporting on edge 'gneE11', time 2998.00.
-Warning: Vehicle '2642' ends teleporting on edge 'gneE12', time 3063.00.
-Warning: Teleporting vehicle '2010'; waited too long (yield), lane='gneE12_1', time=3267.00.
-Warning: Vehicle '2010' ends teleporting on edge 'gneE13', time 3267.00.
-Warning: Teleporting vehicle '2852'; waited too long (yield), lane='gneE11_1', time=3274.00.
-Warning: Teleporting vehicle '2910'; waited too long (jam), lane='-899645883#1_0', time=3274.00.
-Warning: Vehicle '2910' ends teleporting on edge 'gneE11', time 3274.00.
-Warning: Teleporting vehicle '2911'; waited too long (wrong lane), lane='gneE13_0', time=3277.00.
-Warning: Vehicle '2911' ends teleporting on edge 'gneE11', time 3277.00.
-Warning: Teleporting vehicle '2291'; waited too long (yield), lane='gneE13_1', time=3278.00.
-Warning: Vehicle '2291' ends teleporting on edge 'gneE11', time 3279.00.
-Warning: Vehicle '2852' ends teleporting on edge 'gneE12', time 3284.00.
-Warning: Teleporting vehicle '2724'; waited too long (yield), lane='2955277#2_0', time=3291.00.
-Warning: Teleporting vehicle '2975'; waited too long (yield), lane=':13804988_3_0', time=3308.00.
-Warning: Vehicle '2975' ends teleporting on edge '-3024965#8', time 3308.00.
-Warning: Teleporting vehicle '2634'; waited too long (jam), lane='-959553052#2_0', time=3323.00.
-Warning: Teleporting vehicle '2917'; waited too long (jam), lane='-959553052#4_0', time=3342.00.
-Warning: Vehicle '2634' teleports beyond arrival edge '39183706', time 3473.00.
-Warning: Vehicle '2724' ends teleporting on edge 'gneE13', time 3540.00.
-Warning: Teleporting vehicle '2910'; waited too long (yield), lane='gneE11_1', time=3578.00.
-Warning: Vehicle '2910' ends teleporting on edge 'gneE12', time 3578.00.
-Warning: Teleporting vehicle '3220'; waited too long (yield), lane='gneE12_1', time=3586.00.
-Warning: Vehicle '3220' ends teleporting on edge 'gneE13', time 3586.00.
-Warning: Teleporting vehicle '2421'; waited too long (jam), lane='192668650#2_0', time=3595.00.
-Warning: Teleporting vehicle '2935'; waited too long (yield), lane='2955277#2_0', time=3596.00.
-Warning: Vehicle '2935' ends teleporting on edge '3292445#3', time 3596.00.
-Warning: Vehicle '2421' ends teleporting on edge 'gneE13', time 3648.00.
-Warning: Teleporting vehicle '3207'; waited too long (jam), lane='-192674402#2_0', time=3667.00.
-Warning: Teleporting vehicle '3409'; waited too long (yield), lane='3025482#2_0', time=3724.00.
-Warning: Teleporting vehicle '3497'; waited too long (yield), lane='127654225#19_0', time=3805.00.
-Warning: Teleporting vehicle '2982'; waited too long (yield), lane='gneE11_1', time=3885.00.
-Warning: Teleporting vehicle '2050'; waited too long (yield), lane='gneE12_1', time=3891.00.
-Warning: Vehicle '2050' ends teleporting on edge 'gneE13', time 3891.00.
-Warning: Vehicle '2917' ends teleporting on edge 'gneE11', time 3894.00.
-Warning: Vehicle '3409' ends teleporting on edge '-3024965#8', time 3894.00.
-Warning: Vehicle '2982' ends teleporting on edge 'gneE12', time 3895.00.
-Warning: Teleporting vehicle '2422'; waited too long (jam), lane='192668650#2_0', time=3901.00.
-Warning: Teleporting vehicle '2973'; waited too long (yield), lane='2955277#2_0', time=3901.00.
-Warning: Teleporting vehicle '2312'; waited too long (jam), lane='-3292445#2_0', time=3905.00.
-Warning: Vehicle '2973' ends teleporting on edge '-3292445#2', time 3905.00.
-Warning: Vehicle '2312' ends teleporting on edge 'gneE12', time 3907.00.
-Warning: Teleporting vehicle '2913'; waited too long (jam), lane=':13804988_5_0', time=3930.00.
-Warning: Vehicle '2913' ends teleporting on edge '959553052#0', time 3930.00.
-Warning: Teleporting vehicle '2696'; waited too long (jam), lane='-959553052#2_0', time=3934.00.
-Warning: Vehicle '2422' ends teleporting on edge '192668650#3', time 3941.00.
-Warning: Teleporting vehicle '2960'; waited too long (jam), lane='-959553052#4_0', time=3956.00.
-Warning: Teleporting vehicle '3336'; waited too long (yield), lane='3024961_0', time=3974.00.
-Warning: Vehicle '3497' ends teleporting on edge '-3292445#8', time 3979.00.
-Warning: Vehicle '3336' teleports beyond arrival edge '-959553052#2', time 4111.00.
-Warning: Vehicle '3207' ends teleporting on edge 'gneE13', time 4162.00.
-Warning: Teleporting vehicle '2981'; waited too long (yield), lane='2955277#2_0', time=4206.00.
-Warning: Vehicle '2696' ends teleporting on edge 'gneE11', time 4223.00.
-Warning: Teleporting vehicle '2333'; waited too long (yield), lane='gneE12_1', time=4230.00.
-Warning: Vehicle '2333' ends teleporting on edge 'gneE13', time 4230.00.
-Warning: Teleporting vehicle '3453'; waited too long (yield), lane='4235144#3_0', time=4237.00.
-Warning: Vehicle '2981' ends teleporting on edge '-3292445#2', time 4237.00.
-Warning: Teleporting vehicle '2422'; waited too long (jam), lane='192668650#3_0', time=4242.00.
-Warning: Vehicle '2422' ends teleporting on edge 'gneE11', time 4259.00.
-Warning: Vehicle '3453' ends teleporting on edge 'gneE11', time 4277.00.
-Warning: Teleporting vehicle '3229'; waited too long (yield), lane='3024965#3_0', time=4278.00.
-Warning: Teleporting vehicle '3549'; waited too long (yield), lane='3024961_0', time=4290.00.
-Warning: Vehicle '2960' teleports beyond arrival edge '39183706', time 4307.00.
-Warning: Vehicle '3229' ends teleporting on edge '39183706', time 4309.00.
-Warning: Vehicle '3549' ends teleporting on edge '-192674402#1', time 4344.00.
-Simulation ended at time: 4716.00
+Simulation ended at time: 3879.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 9.64s
- Real time factor: 489.161
- UPS: 97965.148843
+ Duration: 14.66s
+ Real time factor: 264.543
+ UPS: 40901.657232
 Vehicles: 
  Inserted: 3600
  Running: 0
  Waiting: 0
-Teleports: 42 (Jam: 12, Yield: 26, Wrong Lane: 4)
 
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '11/iteration_011_basicTrips_010.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 29.12 in edge '-779925235'.
+Warning: No interval matches passed time 19.75 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '11\\iteration_011.sumocfg']
 Loading configuration ... done.
-Loading net-file from '11\../../bath.net.xml' ... done (108ms).
+Loading net-file from '11\../../bath.net.xml' ... done (234ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '11\dua_dump_011.add.xml' ... done (9ms).
+Loading additional-files from '11\dua_dump_011.add.xml' ... done (12ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Simulation ended at time: 4036.00
+Simulation ended at time: 3891.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.72s
- Real time factor: 522.798
- UPS: 81670.725389
+ Duration: 14.21s
+ Real time factor: 273.783
+ UPS: 42161.342527
 Vehicles: 
  Inserted: 3600
  Running: 0
@@ -439,25 +332,25 @@ Vehicles:
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '12/iteration_012_basicTrips_011.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 29.12 in edge '-779925235'.
+Warning: No interval matches passed time 19.75 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '12\\iteration_012.sumocfg']
 Loading configuration ... done.
-Loading net-file from '12\../../bath.net.xml' ... done (107ms).
+Loading net-file from '12\../../bath.net.xml' ... done (236ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '12\dua_dump_012.add.xml' ... done (9ms).
+Loading additional-files from '12\dua_dump_012.add.xml' ... done (11ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Simulation ended at time: 4024.00
+Simulation ended at time: 3898.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 7.67s
- Real time factor: 524.984
- UPS: 82296.020874
+ Duration: 13.74s
+ Real time factor: 283.718
+ UPS: 43537.812068
 Vehicles: 
  Inserted: 3600
  Running: 0
@@ -466,25 +359,25 @@ Vehicles:
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '13/iteration_013_basicTrips_012.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 29.15 in edge '-779925235'.
+Warning: No interval matches passed time 19.75 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '13\\iteration_013.sumocfg']
 Loading configuration ... done.
-Loading net-file from '13\../../bath.net.xml' ... done (108ms).
+Loading net-file from '13\../../bath.net.xml' ... done (197ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '13\dua_dump_013.add.xml' ... done (8ms).
+Loading additional-files from '13\dua_dump_013.add.xml' ... done (12ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Simulation ended at time: 4076.00
+Simulation ended at time: 3900.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 12.56s
- Real time factor: 324.445
- UPS: 50136.830375
+ Duration: 14.45s
+ Real time factor: 269.859
+ UPS: 41518.128979
 Vehicles: 
  Inserted: 3600
  Running: 0
@@ -493,116 +386,27 @@ Vehicles:
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\duarouter', '-c', '14/iteration_014_basicTrips_013.duarcfg']
 Loading configuration ... done.
-Warning: No interval matches passed time 29.15 in edge '-779925235'.
+Warning: No interval matches passed time 19.76 in edge '2956761'.
  Using edge's length / max speed.
 Success.
 -------------------------------------------------------------------------------
 ['D:\\Program Files\\SUMO\\bin\\sumo', '-c', '14\\iteration_014.sumocfg']
 Loading configuration ... done.
-Loading net-file from '14\../../bath.net.xml' ... done (186ms).
+Loading net-file from '14\../../bath.net.xml' ... done (244ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '14\dua_dump_014.add.xml' ... done (14ms).
+Loading additional-files from '14\dua_dump_014.add.xml' ... done (10ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Warning: Teleporting vehicle '1838'; waited too long (wrong lane), lane='gneE11_1', time=2213.00.
-Warning: Vehicle '1838' ends teleporting on edge '3292445#0.4', time 2213.00.
-Warning: Teleporting vehicle '1910'; waited too long (yield), lane='gneE11_1', time=2214.00.
-Warning: Vehicle '1910' ends teleporting on edge 'gneE12', time 2214.00.
-Warning: Teleporting vehicle '1730'; waited too long (yield), lane='gneE12_1', time=2282.00.
-Warning: Vehicle '1730' ends teleporting on edge 'gneE13', time 2282.00.
-Warning: Teleporting vehicle '2133'; waited too long (yield), lane='4235144#3_0', time=2526.00.
-Warning: Vehicle '2133' ends teleporting on edge 'gneE11', time 2560.00.
-Warning: Teleporting vehicle '1925'; waited too long (yield), lane='gneE13_1', time=2597.00.
-Warning: Vehicle '1925' ends teleporting on edge 'gneE11', time 2597.00.
-Warning: Teleporting vehicle '1890'; waited too long (yield), lane='gneE11_1', time=2599.00.
-Warning: Vehicle '1890' ends teleporting on edge 'gneE12', time 2599.00.
-Warning: Teleporting vehicle '1859'; waited too long (yield), lane='gneE12_1', time=2602.00.
-Warning: Vehicle '1859' ends teleporting on edge 'gneE13', time 2602.00.
-Warning: Teleporting vehicle '2291'; waited too long (yield), lane='4235144#3_0', time=2837.00.
-Warning: Vehicle '2291' ends teleporting on edge 'gneE11', time 2871.00.
-Warning: Teleporting vehicle '1849'; waited too long (yield), lane='gneE13_1', time=2905.00.
-Warning: Vehicle '1849' ends teleporting on edge 'gneE11', time 2905.00.
-Warning: Teleporting vehicle '2087'; waited too long (yield), lane='gneE12_1', time=2913.00.
-Warning: Vehicle '2087' ends teleporting on edge 'gneE13', time 2913.00.
-Warning: Teleporting vehicle '2180'; waited too long (yield), lane='gneE11_1', time=2915.00.
-Warning: Vehicle '2180' ends teleporting on edge 'gneE12', time 2915.00.
-Warning: Teleporting vehicle '2724'; waited too long (yield), lane='2955277#2_0', time=3034.00.
-Warning: Teleporting vehicle '2010'; waited too long (yield), lane='gneE12_1', time=3232.00.
-Warning: Vehicle '2010' ends teleporting on edge 'gneE13', time 3232.00.
-Warning: Vehicle '2724' ends teleporting on edge 'gneE12', time 3232.00.
-Warning: Teleporting vehicle '2214'; waited too long (jam), lane='192668650#2_0', time=3236.00.
-Warning: Teleporting vehicle '2391'; waited too long (yield), lane='gneE11_1', time=3240.00.
-Warning: Teleporting vehicle '1811'; waited too long (yield), lane='gneE13_1', time=3240.00.
-Warning: Vehicle '1811' ends teleporting on edge 'gneE11', time 3240.00.
-Warning: Teleporting vehicle '2069'; waited too long (jam), lane='192668650#3_0', time=3241.00.
-Warning: Vehicle '2214' ends teleporting on edge '192668650#3', time 3241.00.
-Warning: Teleporting vehicle '2333'; waited too long (jam), lane='-3292445#2_0', time=3243.00.
-Warning: Teleporting vehicle '2057'; waited too long (jam), lane='192668650#3_0', time=3245.00.
-Warning: Vehicle '2057' ends teleporting on edge 'gneE13', time 3247.00.
-Warning: Teleporting vehicle '2894'; waited too long (jam), lane='-959553052#2_0', time=3263.00.
-Warning: Vehicle '2391' ends teleporting on edge 'gneE12', time 3263.00.
-Warning: Vehicle '2333' ends teleporting on edge 'gneE13', time 3267.00.
-Warning: Vehicle '2069' ends teleporting on edge 'gneE11', time 3275.00.
-Warning: Teleporting vehicle '2694'; waited too long (yield), lane='3024965#3_0', time=3276.00.
-Warning: Vehicle '2694' teleports beyond arrival edge '192668650#3', time 3512.00.
-Warning: Teleporting vehicle '2724'; waited too long (yield), lane='gneE12_1', time=3533.00.
-Warning: Vehicle '2724' ends teleporting on edge 'gneE13', time 3533.00.
-Warning: Vehicle '2894' ends teleporting on edge 'gneE11', time 3552.00.
-Warning: Teleporting vehicle '2279'; waited too long (jam), lane='192668650#2_0', time=3556.00.
-Warning: Teleporting vehicle '2860'; waited too long (jam), lane='-959553052#2_0', time=3571.00.
-Warning: Teleporting vehicle '2973'; waited too long (yield), lane='2955277#2_0', time=3588.00.
-Warning: Vehicle '2279' ends teleporting on edge 'gneE11', time 3661.00.
-Warning: Vehicle '2973' ends teleporting on edge 'gneE12', time 3725.00.
-Warning: Teleporting vehicle '2448'; waited too long (yield), lane='gneE12_1', time=3851.00.
-Warning: Vehicle '2448' ends teleporting on edge '-192668650#4', time 3851.00.
-Warning: Teleporting vehicle '2713'; waited too long (jam), lane='-899645883#1_0', time=3857.00.
-Warning: Vehicle '2713' ends teleporting on edge 'gneE11', time 3858.00.
-Warning: Teleporting vehicle '1987'; waited too long (yield), lane='gneE13_1', time=3859.00.
-Warning: Vehicle '1987' ends teleporting on edge 'gneE11', time 3859.00.
-Warning: Vehicle '2860' ends teleporting on edge 'gneE13', time 3859.00.
-Warning: Teleporting vehicle '2057'; waited too long (yield), lane='gneE13_1', time=3860.00.
-Warning: Vehicle '2057' ends teleporting on edge 'gneE11', time 3861.00.
-Warning: Teleporting vehicle '3128'; waited too long (jam), lane='-899645883#4_0', time=3866.00.
-Warning: Teleporting vehicle '2981'; waited too long (yield), lane='2955277#2_0', time=3893.00.
-Warning: Vehicle '2981' ends teleporting on edge '-3292445#2', time 3901.00.
-Warning: Teleporting vehicle '3116'; waited too long (yield), lane='3024965#3_0', time=3941.00.
-Warning: Vehicle '3116' ends teleporting on edge '-34784840#1', time 3953.00.
-Warning: Vehicle '3128' ends teleporting on edge 'gneE12', time 4000.00.
-Warning: Teleporting vehicle '3453'; waited too long (yield), lane='4235144#3_0', time=4248.00.
-Warning: Teleporting vehicle '3524'; waited too long (yield), lane='gneE11_1', time=4252.00.
-Warning: Vehicle '3524' ends teleporting on edge 'gneE12', time 4252.00.
-Warning: Teleporting vehicle '2343'; waited too long (jam), lane='192668650#3_0', time=4257.00.
-Warning: Teleporting vehicle '3551'; waited too long (jam), lane='-899645883#4_0', time=4258.00.
-Warning: Teleporting vehicle '2662'; waited too long (jam), lane='192668650#2_0', time=4262.00.
-Warning: Vehicle '2343' ends teleporting on edge 'gneE13', time 4277.00.
-Warning: Teleporting vehicle '3226'; waited too long (yield), lane='3024965#3_0', time=4280.00.
-Warning: Vehicle '3453' ends teleporting on edge 'gneE11', time 4282.00.
-Warning: Vehicle '3226' ends teleporting on edge '-34784840#1', time 4291.00.
-Warning: Vehicle '2662' ends teleporting on edge 'gneE11', time 4367.00.
-Warning: Vehicle '3551' ends teleporting on edge 'gneE12', time 4431.00.
-Warning: Teleporting vehicle '3239'; waited too long (yield), lane='gneE12_1', time=4570.00.
-Warning: Vehicle '3239' ends teleporting on edge 'gneE13', time 4570.00.
-Warning: Teleporting vehicle '2489'; waited too long (jam), lane='192668650#3_0', time=4581.00.
-Warning: Vehicle '2489' ends teleporting on edge 'gneE11', time 4611.00.
-Warning: Teleporting vehicle '3182'; waited too long (yield), lane='gneE12_1', time=4911.00.
-Warning: Vehicle '3182' ends teleporting on edge 'gneE13', time 4911.00.
-Warning: Teleporting vehicle '2446'; waited too long (yield), lane='gneE13_1', time=4912.00.
-Warning: Vehicle '2446' ends teleporting on edge 'gneE11', time 4912.00.
-Warning: Teleporting vehicle '2710'; waited too long (jam), lane='192668650#3_0', time=4914.00.
-Warning: Vehicle '2710' ends teleporting on edge 'gneE13', time 4916.00.
-Warning: Teleporting vehicle '2975'; waited too long (jam), lane='192668650#2_0', time=4918.00.
-Warning: Vehicle '2975' ends teleporting on edge 'gneE13', time 4962.00.
-Simulation ended at time: 5292.00
+Simulation ended at time: 3901.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 16.42s
- Real time factor: 322.368
- UPS: 52607.212476
+ Duration: 14.15s
+ Real time factor: 275.67
+ UPS: 42416.366335
 Vehicles: 
  Inserted: 3600
  Running: 0
  Waiting: 0
-Teleports: 44 (Jam: 15, Yield: 28, Wrong Lane: 1)
 

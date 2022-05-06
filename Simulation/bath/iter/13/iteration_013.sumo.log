@@ -1,16 +1,16 @@
-Loading net-file from '13\../../bath.net.xml' ... done (108ms).
+Loading net-file from '13\../../bath.net.xml' ... done (197ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '13\dua_dump_013.add.xml' ... done (8ms).
+Loading additional-files from '13\dua_dump_013.add.xml' ... done (12ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Simulation ended at time: 4076.00
+Simulation ended at time: 3900.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 12.56s
- Real time factor: 324.445
- UPS: 50136.830375
+ Duration: 14.45s
+ Real time factor: 269.859
+ UPS: 41518.128979
 Vehicles: 
  Inserted: 3600
  Running: 0

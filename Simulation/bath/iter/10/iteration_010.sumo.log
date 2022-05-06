@@ -1,103 +1,18 @@
-Loading net-file from '10\../../bath.net.xml' ... done (110ms).
+Loading net-file from '10\../../bath.net.xml' ... done (224ms).
 Warning: Unused states in tlLogic 'cluster_1070601793_1070601814_4316723365_5364217784', program '0' in phase 0 after tl-index 3
 Warning: Unused states in tlLogic 'cluster_3577030724_3577030726_3577030733', program '0' in phase 0 after tl-index 2
 Warning: Unused states in tlLogic 'cluster_443914196_4910563205_4910563207_7846562043', program '0' in phase 0 after tl-index 3
-Loading additional-files from '10\dua_dump_010.add.xml' ... done (8ms).
+Loading additional-files from '10\dua_dump_010.add.xml' ... done (14ms).
 Loading done.
 Simulation version 1.10.0 started with time: 0.00
-Warning: Teleporting vehicle '1770'; waited too long (wrong lane), lane='8769305_0', time=2117.00.
-Warning: Vehicle '1770' ends teleporting on edge '-4231711', time 2117.00.
-Warning: Teleporting vehicle '1648'; waited too long (yield), lane='39333941#4_0', time=2128.00.
-Warning: Vehicle '1648' ends teleporting on edge '8769305', time 2128.00.
-Warning: Teleporting vehicle '1838'; waited too long (wrong lane), lane='gneE11_1', time=2214.00.
-Warning: Vehicle '1838' ends teleporting on edge '3292445#0.4', time 2214.00.
-Warning: Teleporting vehicle '1910'; waited too long (yield), lane='gneE11_1', time=2215.00.
-Warning: Vehicle '1910' ends teleporting on edge 'gneE12', time 2215.00.
-Warning: Teleporting vehicle '1730'; waited too long (yield), lane='gneE12_1', time=2323.00.
-Warning: Vehicle '1730' ends teleporting on edge 'gneE13', time 2323.00.
-Warning: Teleporting vehicle '2087'; waited too long (yield), lane='gneE12_1', time=2649.00.
-Warning: Vehicle '2087' ends teleporting on edge 'gneE13', time 2649.00.
-Warning: Teleporting vehicle '2123'; waited too long (wrong lane), lane='8769305_1', time=2667.00.
-Warning: Vehicle '2123' ends teleporting on edge '32751327', time 2667.00.
-Warning: Teleporting vehicle '1859'; waited too long (yield), lane='gneE12_1', time=2961.00.
-Warning: Vehicle '1859' ends teleporting on edge 'gneE13', time 2961.00.
-Warning: Teleporting vehicle '2472'; waited too long (yield), lane='gneE11_1', time=2965.00.
-Warning: Vehicle '2472' ends teleporting on edge 'gneE12', time 2965.00.
-Warning: Teleporting vehicle '2214'; waited too long (jam), lane='192668650#3_0', time=2970.00.
-Warning: Teleporting vehicle '2642'; waited too long (yield), lane='2955277#2_0', time=2987.00.
-Warning: Vehicle '2214' ends teleporting on edge 'gneE11', time 2998.00.
-Warning: Vehicle '2642' ends teleporting on edge 'gneE12', time 3063.00.
-Warning: Teleporting vehicle '2010'; waited too long (yield), lane='gneE12_1', time=3267.00.
-Warning: Vehicle '2010' ends teleporting on edge 'gneE13', time 3267.00.
-Warning: Teleporting vehicle '2852'; waited too long (yield), lane='gneE11_1', time=3274.00.
-Warning: Teleporting vehicle '2910'; waited too long (jam), lane='-899645883#1_0', time=3274.00.
-Warning: Vehicle '2910' ends teleporting on edge 'gneE11', time 3274.00.
-Warning: Teleporting vehicle '2911'; waited too long (wrong lane), lane='gneE13_0', time=3277.00.
-Warning: Vehicle '2911' ends teleporting on edge 'gneE11', time 3277.00.
-Warning: Teleporting vehicle '2291'; waited too long (yield), lane='gneE13_1', time=3278.00.
-Warning: Vehicle '2291' ends teleporting on edge 'gneE11', time 3279.00.
-Warning: Vehicle '2852' ends teleporting on edge 'gneE12', time 3284.00.
-Warning: Teleporting vehicle '2724'; waited too long (yield), lane='2955277#2_0', time=3291.00.
-Warning: Teleporting vehicle '2975'; waited too long (yield), lane=':13804988_3_0', time=3308.00.
-Warning: Vehicle '2975' ends teleporting on edge '-3024965#8', time 3308.00.
-Warning: Teleporting vehicle '2634'; waited too long (jam), lane='-959553052#2_0', time=3323.00.
-Warning: Teleporting vehicle '2917'; waited too long (jam), lane='-959553052#4_0', time=3342.00.
-Warning: Vehicle '2634' teleports beyond arrival edge '39183706', time 3473.00.
-Warning: Vehicle '2724' ends teleporting on edge 'gneE13', time 3540.00.
-Warning: Teleporting vehicle '2910'; waited too long (yield), lane='gneE11_1', time=3578.00.
-Warning: Vehicle '2910' ends teleporting on edge 'gneE12', time 3578.00.
-Warning: Teleporting vehicle '3220'; waited too long (yield), lane='gneE12_1', time=3586.00.
-Warning: Vehicle '3220' ends teleporting on edge 'gneE13', time 3586.00.
-Warning: Teleporting vehicle '2421'; waited too long (jam), lane='192668650#2_0', time=3595.00.
-Warning: Teleporting vehicle '2935'; waited too long (yield), lane='2955277#2_0', time=3596.00.
-Warning: Vehicle '2935' ends teleporting on edge '3292445#3', time 3596.00.
-Warning: Vehicle '2421' ends teleporting on edge 'gneE13', time 3648.00.
-Warning: Teleporting vehicle '3207'; waited too long (jam), lane='-192674402#2_0', time=3667.00.
-Warning: Teleporting vehicle '3409'; waited too long (yield), lane='3025482#2_0', time=3724.00.
-Warning: Teleporting vehicle '3497'; waited too long (yield), lane='127654225#19_0', time=3805.00.
-Warning: Teleporting vehicle '2982'; waited too long (yield), lane='gneE11_1', time=3885.00.
-Warning: Teleporting vehicle '2050'; waited too long (yield), lane='gneE12_1', time=3891.00.
-Warning: Vehicle '2050' ends teleporting on edge 'gneE13', time 3891.00.
-Warning: Vehicle '2917' ends teleporting on edge 'gneE11', time 3894.00.
-Warning: Vehicle '3409' ends teleporting on edge '-3024965#8', time 3894.00.
-Warning: Vehicle '2982' ends teleporting on edge 'gneE12', time 3895.00.
-Warning: Teleporting vehicle '2422'; waited too long (jam), lane='192668650#2_0', time=3901.00.
-Warning: Teleporting vehicle '2973'; waited too long (yield), lane='2955277#2_0', time=3901.00.
-Warning: Teleporting vehicle '2312'; waited too long (jam), lane='-3292445#2_0', time=3905.00.
-Warning: Vehicle '2973' ends teleporting on edge '-3292445#2', time 3905.00.
-Warning: Vehicle '2312' ends teleporting on edge 'gneE12', time 3907.00.
-Warning: Teleporting vehicle '2913'; waited too long (jam), lane=':13804988_5_0', time=3930.00.
-Warning: Vehicle '2913' ends teleporting on edge '959553052#0', time 3930.00.
-Warning: Teleporting vehicle '2696'; waited too long (jam), lane='-959553052#2_0', time=3934.00.
-Warning: Vehicle '2422' ends teleporting on edge '192668650#3', time 3941.00.
-Warning: Teleporting vehicle '2960'; waited too long (jam), lane='-959553052#4_0', time=3956.00.
-Warning: Teleporting vehicle '3336'; waited too long (yield), lane='3024961_0', time=3974.00.
-Warning: Vehicle '3497' ends teleporting on edge '-3292445#8', time 3979.00.
-Warning: Vehicle '3336' teleports beyond arrival edge '-959553052#2', time 4111.00.
-Warning: Vehicle '3207' ends teleporting on edge 'gneE13', time 4162.00.
-Warning: Teleporting vehicle '2981'; waited too long (yield), lane='2955277#2_0', time=4206.00.
-Warning: Vehicle '2696' ends teleporting on edge 'gneE11', time 4223.00.
-Warning: Teleporting vehicle '2333'; waited too long (yield), lane='gneE12_1', time=4230.00.
-Warning: Vehicle '2333' ends teleporting on edge 'gneE13', time 4230.00.
-Warning: Teleporting vehicle '3453'; waited too long (yield), lane='4235144#3_0', time=4237.00.
-Warning: Vehicle '2981' ends teleporting on edge '-3292445#2', time 4237.00.
-Warning: Teleporting vehicle '2422'; waited too long (jam), lane='192668650#3_0', time=4242.00.
-Warning: Vehicle '2422' ends teleporting on edge 'gneE11', time 4259.00.
-Warning: Vehicle '3453' ends teleporting on edge 'gneE11', time 4277.00.
-Warning: Teleporting vehicle '3229'; waited too long (yield), lane='3024965#3_0', time=4278.00.
-Warning: Teleporting vehicle '3549'; waited too long (yield), lane='3024961_0', time=4290.00.
-Warning: Vehicle '2960' teleports beyond arrival edge '39183706', time 4307.00.
-Warning: Vehicle '3229' ends teleporting on edge '39183706', time 4309.00.
-Warning: Vehicle '3549' ends teleporting on edge '-192674402#1', time 4344.00.
-Simulation ended at time: 4716.00
+Simulation ended at time: 3879.00
 Reason: All vehicles have left the simulation.
 Performance: 
- Duration: 9.64s
- Real time factor: 489.161
- UPS: 97965.148843
+ Duration: 14.66s
+ Real time factor: 264.543
+ UPS: 40901.657232
 Vehicles: 
  Inserted: 3600
  Running: 0
  Waiting: 0
-Teleports: 42 (Jam: 12, Yield: 26, Wrong Lane: 4)
 
