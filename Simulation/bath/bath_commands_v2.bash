@@ -25,10 +25,10 @@ python ../mytools/scaleDemand.py --edgedata-file data/analysisData.xml --count-f
 python ../tools/routeSampler.py -r routes/basicRoutes.rou.xml -d expandedCounts.xml -o routes/sampledRoutes.rou.xml --weighted --optimize full
 
 #now run sumo with sampled routes 
-#sumo -c ...
+sumo -c sample_basic_bath_config.sumocfg
 
 #generate trips for ltn
-#python ../mytools/tripsFromRoutes.py -t basicTrips.trips.xml -r routes/basicRoutes.rou.xml -i routes/sampledRoutes.rou.xml -o ltn/ltnTrips.trips.xml
+python ../mytools/tripsFromRoutes.py -t basicTrips.trips.xml -r routes/basicRoutes.rou.xml -i routes/sampledRoutes.rou.xml -o ltn/ltnTrips.trips.xml
 
 #route them
 #duarouter -n ltn/ltnGrid.net.xml --r ltn/ltnTrips.trips.xml -o ltn/ltnRoutes.rou.xml --junction-taz
