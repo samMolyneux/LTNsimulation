@@ -19,9 +19,9 @@ def get_options(args=None):
                         help="Input count file ")
     parser.add_argument("-o", "--output-file", dest="out", default="out.xml",
                         help="Output edgeData file")
-    parser.add_argument("-b", "--begin", default=0, help="begin time (default 0)")
-    parser.add_argument("-e", "--end", default=3600,
-                           help="end time (default 3600)")
+    # parser.add_argument("-b", "--begin", default=0, help="begin time (default 0)")
+    # parser.add_argument("-e", "--end", default=3600,
+    #                        help="end time (default 3600)")
     parser.add_argument("-s", "--scale",
                            help="explicit scale factor")
 
