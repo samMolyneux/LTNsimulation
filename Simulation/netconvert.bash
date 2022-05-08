@@ -1,1 +1,1 @@
-netconvert --osm-files mapv2.osm -o bath3.net.xml --ramps.guess --junctions.join --tls.guess-signals --tls.discard-simple --tls.join --tls.default-type actuated --lefthand --type-files typemaps/osmNetconvertNoPed.typ.xml
+netconvert --osm-files mapv2.osm -o bathPlain.net.xml --ramps.guess --junctions.join --tls.guess-signals --tls.discard-simple --tls.join --tls.default-type actuated --lefthand --type-files typemaps/osmNetconvertNoPed.typ.xml

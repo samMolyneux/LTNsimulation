@@ -7,8 +7,8 @@
 
     <input>
         <net-file value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\bath\bath.net.xml"/>
-        <route-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\bath\routes\mergedRoutes.rou.xml"/>
-        <additional-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\bath\distributionDataDef.xml" />
+        <route-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\bath\routes\countRoutes.rou.xml"/>
+        <additional-files value="C:\Users\sam\Documents\Work\Final%20Year\Dissertation\diss\Simulation\bath\countsDataDef.xml" />
     </input>
 
 </configuration>
