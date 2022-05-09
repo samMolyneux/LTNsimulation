@@ -26,7 +26,7 @@ sumo -c basic_config_18_04_2022.sumocfg
 
 python ../../mytools/scaleDemand.py --edgedata-file edgeData.xml --count-file countData.xml -o expandedCounts.xml
 
-python ../../tools/routeSampler.py -r basicRoutes.rou.xml -d expandedCounts.xml -o sampledRoutes.rou.xml
+python ../../tools/routeSampler.py -r basicRoutes.rou.xml -d expandedCounts.xml -o sampledRoutes.rou.xml 
 
 sumo -c analysis_config.sumocfg
 
@@ -43,3 +43,5 @@ sumo -c analysis_config.sumocfg
 python ../../mytools/tripsFromRoutes.py  -i sampledRoutes.rou.xml -r basicRoutes.rou.xml -t simpleTrips.trips.xml -o ../ltn/ltnTrips.rou.xml
 
 duarouter -n ../ltn/ltnGrid.net.xml --r ../ltn/ltnTrips.rou.xml -o ../ltn/ltnRoutes.rou.xml --junction-taz
+
+sumo -c ../ltn/ltn_config.sumocfg

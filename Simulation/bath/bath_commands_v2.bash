@@ -11,7 +11,7 @@ sumo -c basic_bath_config.sumocfg
 python ../tools/routeSampler.py -r routes/basicRoutes.rou.xml -d data/edgeData.xml -o routes/generalRoutes.rou.xml --weighted -u generalDis --optimize full
 
 #generate route distribution covering available count data
-python ../tools/routeSampler.py -r routes/basicRoutes.rou.xml -d countData.xml -o routes/countRoutes.rou.xml --weighted -u countDis
+python ../tools/routeSampler.py -r routes/basicRoutes.rou.xml -d countData.xml -o routes/countRoutes.rou.xml --weighted -u countDis --optimize
 
 ##now do the copy stuff, changing route prefixes
 python ../mytools/combineDist.py -d routes/generalRoutes.rou.xml -r routes/countRoutes.rou.xml -o routes/mergedRoutes.rou.xml

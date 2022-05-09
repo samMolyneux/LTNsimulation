@@ -1,7 +1,7 @@
 <data>
     <interval id="arbitrary" begin="0.0" end="3600">
-        <edge id="-gneE100" entered="190"/>
-        <edge id="-gneE96" entered="205"/>
-        <edge id="gneE89" entered="150"/>      
+        <edge id="-gneE100" entered="135"/>
+        <edge id="-gneE96" entered="219"/>
+        <edge id="gneE89" entered="125"/>      
      </interval>
 </data>
