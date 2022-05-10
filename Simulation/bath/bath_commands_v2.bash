@@ -1,5 +1,14 @@
+while getopts f:a: flag
+do
+    case "${flag}" in
+        f) fringeFactor=${OPTARG};;
+        a) age=${OPTARG};;
+    esac
+done
+
+
 #generate basic trips
-python ../tools/randomTrips.py -n bath.net.xml --fringe-factor 2 --junction-taz -o basicTrips.trips.xml
+python ../tools/randomTrips.py -n bath.net.xml --fringe-factor "$fringeFactor" --junction-taz -o basicTrips.trips.xml
 
 #route them
 duarouter -n bath.net.xml --junction-taz --r basicTrips.trips.xml -o routes/basicRoutes.rou.xml
@@ -8,10 +17,10 @@ duarouter -n bath.net.xml --junction-taz --r basicTrips.trips.xml -o routes/basi
 sumo -c basic_bath_config.sumocfg
 
 #generate route distribution for general demand 
-python ../tools/routeSampler.py -r routes/basicRoutes.rou.xml -d data/edgeData.xml -o routes/generalRoutes.rou.xml --weighted -u generalDis --optimize full
+python ../tools/routeSampler.py -r routes/basicRoutes.rou.xml -d data/edgeData.xml -o routes/generalRoutes.rou.xml --weighted -u generalDis 
 
 #generate route distribution covering available count data
-python ../tools/routeSampler.py -r routes/basicRoutes.rou.xml -d countData.xml -o routes/countRoutes.rou.xml --weighted -u countDis --optimize
+python ../tools/routeSampler.py -r routes/basicRoutes.rou.xml -d countData.xml -o routes/countRoutes.rou.xml --weighted -u countDis --optimize full
 
 ##now do the copy stuff, changing route prefixes
 python ../mytools/combineDist.py -d routes/generalRoutes.rou.xml -r routes/countRoutes.rou.xml -o routes/mergedRoutes.rou.xml

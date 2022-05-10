@@ -9,6 +9,6 @@ python ../../tools/visualization/plot_net_dump.py -n basicGrid.net.xml --measure
 
 ###
 # shows change in traffic volume after implementation of ltn
-python ../tools/output/netdumpdiff.py -2 basic/analysisData.xml -1 ltn/data/edgeData.xml -o out.xml
-python ../tools/visualization/plot_net_dump.py -n basic/basicGrid.net.xml --measures entered -i out.xml --default-width 1
+python ../tools/output/netdumpdiff.py -2 basic/analysisData.xml -1 ltn/data/edgeData.xml -o netdiff.xml
+python ../tools/visualization/plot_net_dump.py -n basic/basicGrid.net.xml --measures entered -i netdiff.xml --default-width 1 --color-bar-label "Traffic Volume [no. cars]"  --xticks 0,900,100,12 --yticks 0,900,100,12 --xlim 0,900 --ylim 0,900 --xlabel [m] --ylabel [m] 
 ###
