@@ -40,6 +40,8 @@ options = get_options()
 #match to route from route file
 #match route id to trip id
 #oupute trip to and from to file
+
+#Note this script may take up to ~500 seconds to run, the time taken is ouput at the end
 matchedTrip = None
 start = time.time()
 with open(options.out, "w") as outf:
